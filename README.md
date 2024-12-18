@@ -25,7 +25,7 @@ Amazon Personalize를 활용하여 개인화된 추천 시스템을 구축하는
 ### 옵션 1: CloudFormation 이용
 
 1. CloudFormation 템플릿 준비
-    - `CloudFormation/Personalize-HOL-CF-template.yaml` 파일을 다운로드합니다.
+    - [CloudFormation 템플릿 파일](CloudFormation/Personalize-HOL-CF-template.yaml)을 다운로드합니다.
 
 2. CloudFormation 스택 생성
     - AWS Console에 접속한 뒤 CloudFormation으로 이동합니다.
