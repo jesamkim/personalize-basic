@@ -45,7 +45,7 @@ Amazon Personalize를 활용하여 개인화된 추천 시스템을 구축하는
 
 ## 실습 시작하기
 
-1. AWS Console에서 SageMaker로 이동합니다.
+1. AWS Console에서 SageMaker AI로 이동합니다.
 2. Notebook > Notebook Instances에서 "Personalize-Notebook"의 "Open JupyterLab" 클릭
 3. JupyterLab에서 새 터미널을 열고 (File > New > Terminal) 다음 명령어를 실행:
 ```bash
