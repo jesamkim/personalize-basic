@@ -10,15 +10,15 @@ Amazon Personalize를 활용하여 개인화된 추천 시스템을 구축하는
 
 실습은 다음과 같은 순서로 진행됩니다:
 
-1. 데이터셋 준비 (`1.prepare_dataset.ipynb`)
-2. 데이터 변환 (`2.transform_dataset.ipynb`)
-3. S3에 데이터셋 업로드 (`3.upload_dataset_to_s3.ipynb`)
-4. Dataset Group 생성 (`4.create_dataset_group.ipynb`)
-5. 솔루션(추천 모델) 생성 (`5.create_solution.ipynb`)
-6. 솔루션 메트릭 평가 (`6.evaluate_solutions_metrics.ipynb`)
-7. 캠페인 생성 (`7.create_campaign.ipynb`)
-8. 추천 결과 확인 (`8.get_recommendations.ipynb`)
-9. 리소스 정리 (`9.cleanup.ipynb`)
+1. 데이터셋 준비 - [code/1.prepare_dataset.ipynb](code/1.prepare_dataset.ipynb)
+2. 데이터 변환 - [code/2.transform_dataset.ipynb](code/2.transform_dataset.ipynb)
+3. S3에 데이터셋 업로드 - [code/3.upload_dataset_to_s3.ipynb](code/3.upload_dataset_to_s3.ipynb)
+4. Dataset Group 생성 - [code/4.create_dataset_group.ipynb](code/4.create_dataset_group.ipynb)
+5. 솔루션(추천 모델) 생성 - [code/5.create_solution.ipynb](code/5.create_solution.ipynb)
+6. 솔루션 메트릭 평가 - [code/6.evaluate_solutions_metrics.ipynb](code/6.evaluate_solutions_metrics.ipynb)
+7. 캠페인 생성 - [code/7.create_campaign.ipynb](code/7.create_campaign.ipynb)
+8. 추천 결과 확인 - [code/8.get_recommendations.ipynb](code/8.get_recommendations.ipynb)
+9. 리소스 정리 - [code/9.cleanup.ipynb](code/9.cleanup.ipynb)
 
 ## 사전 준비사항
 
