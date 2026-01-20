@@ -31,9 +31,18 @@ Amazon Personalize를 활용하여 개인화된 추천 시스템을 구축하는
     - AWS Console에 접속한 뒤 CloudFormation으로 이동합니다.
     - Create stack > Specify template에서 "Upload a template file" 선택
     - 다운로드한 yaml 파일 선택 > Next
-    - Stack name 입력 (예: Personalize-HOL) > Next > Next
+    - **Stack name 입력: `Personalize-HOL`** (권장) > Next > Next
     - 맨 하단의 Capabilities 체크박스 체크 > Submit
     - 스택 배포에는 약 5분이 소요됩니다.
+
+    또는 AWS CLI를 사용하는 경우:
+    ```bash
+    aws cloudformation create-stack \
+      --stack-name Personalize-HOL \
+      --template-body file://Personalize-HOL-CF-template.yaml \
+      --capabilities CAPABILITY_NAMED_IAM \
+      --region ap-northeast-2
+    ```
 
 ### 옵션 2: 기존 SageMaker Notebook Instance 사용
 

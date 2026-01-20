@@ -1,5 +1,11 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Personalize HOL CloudFormation Template - IAM roles and SageMaker Notebook'
+Description: 'Personalize HOL CloudFormation Template - IAM roles and SageMaker Notebook (Recommended Stack Name: Personalize-HOL)'
+
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups: []
+  RecommendedStackName: 'Personalize-HOL'
+
 Resources:
   NotebookInstance:
     Type: AWS::SageMaker::NotebookInstance
