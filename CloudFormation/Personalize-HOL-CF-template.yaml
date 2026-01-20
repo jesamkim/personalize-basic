@@ -7,7 +7,6 @@ Resources:
       InstanceType: "ml.t3.xlarge"
       DirectInternetAccess: "Enabled"
       NotebookInstanceName: "Personalize-Notebook"
-      PlatformIdentifier: "notebook-al2-v2"
       RoleArn: !GetAtt SageMakerRole.Arn
       VolumeSizeInGB: 100
   SageMakerRole:
